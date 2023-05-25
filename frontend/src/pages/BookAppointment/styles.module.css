@@ -1,0 +1,717 @@
+.heading {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+}
+
+.cal {
+      margin-top: 2rem;
+}
+
+.legend {
+      display: flex;
+      margin-top: 2rem;
+      align-items: center;
+      justify-content: center;
+}
+
+.legendMarker {
+      width: 1rem;
+      height: 1rem;
+      border-radius: 50%;
+      display: inline-block;
+      margin-right: 0.5rem;
+}
+
+.booked .legendMarker {
+      background-color: #FF4136;
+}
+
+.available .legendMarker {
+      background-color: #2ECC40;
+}
+
+.holiday .legendMarker {
+      background-color: #0074D9;
+}
+
+.formGroup {
+      margin-top: 2rem;
+}
+
+.label {
+      display: block;
+      font-size: 1.2rem;
+      margin-bottom: 0.5rem;
+}
+/* 
+.input {
+      padding: 0.5rem;
+      font-size: 1.2rem;
+      border-radius: 0.3rem;
+      border: 1px solid #ccc;
+      width: 100%;
+      box-sizing: border-box;
+      margin-bottom: 1rem;
+} */
+
+.radioGroup {
+      display: flex;
+}
+
+.radio {
+      margin-right: 1rem;
+      display: flex;
+      align-items: center;
+}
+
+.radio input[type="radio"] {
+      margin-right: 0.5rem;
+}
+
+
+.dataBlock {
+      position: absolute;
+      width: 794px;
+      height: 620px;
+      left: 690px;
+      top: 180px;
+
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.text {
+      position: absolute;
+      width: 400px;
+      height: 23.89px;
+      left: 600px;
+      top: 130px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #333333;
+}
+
+title {
+      position: absolute;
+      width: 490px;
+      height: 89px;
+      right: 470px;
+      top: 60px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 48px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 2.25px;
+      text-transform: uppercase;
+
+      color: #333333;
+}
+
+.subBlock {
+      position: absolute;
+      width: 794px;
+      height: 711px;
+      left: 0px;
+      top: 0px;
+
+      background: #F2F2F2;
+      border-radius: 25px;
+}
+.heading {
+      position: absolute;
+      width: 312.31px;
+      height: 21.41px;
+      left: 60px;
+      top: 20px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+.yesRadio {
+      position: absolute;
+      width: 23.29px;
+      height: 20px;
+      left: -30px;
+      top: 2px;
+
+      background: #D9D9D9;
+}
+
+.noRadio {
+      position: absolute;
+      width: 23.29px;
+      height: 20.51px;
+      left: -30px;
+      top: 2px;
+
+      background: #D9D9D9;
+}
+
+.yes {
+      position: absolute;
+      width: 35.99px;
+      height: 21.41px;
+      left: 500px;
+      top: 20px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+}
+
+.no {
+      position: absolute;
+      width: 30.7px;
+      height: 21.41px;
+      left: 650px;
+      top: 20px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+.cal {
+      box-sizing: border-box;
+
+      /* Auto layout */
+
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 24px;
+      gap: 10px;
+
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      left: 96px;
+      top: 180px;
+
+      /* Light Mode/Secondary/Light gray 96 */
+
+      background: #F5F5F5;
+      box-shadow: 0px 1px 2px rgba(0, 14, 51, 0.25);
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      border-radius: 16px;
+
+}
+.testtb {
+      position: absolute;
+      width: 364.18px;
+      height: 42.81px;
+      right: 70px;
+      bottom: 567px;
+
+      background: #FFFFFF;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border: 2px solid rgba(36, 34, 34, 0.905);
+
+
+
+}
+
+.pricetb {
+      position: absolute;
+    width: 81.18px;
+    height: 42.81px;
+    right: 353px;
+    bottom: 522px;
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 2px solid rgba(36, 34, 34, 0.905);
+}
+
+label1 {
+      /* Select Test: */
+      position: absolute;
+      width: 125.98px;
+      height: 21.41px;
+      left: 131px;
+      top: 102px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+label1x1 {
+      /* Select Test: */
+      position: absolute;
+      width: 125.98px;
+      height: 21.41px;
+      left: 132px;
+      top: 156px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+label2 {
+      /* Location: */
+      position: absolute;
+      width: 107.98px;
+      height: 21.41px;
+      left: 127px;
+      top: 202px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+}
+
+label3 {
+      /* Apt. no., Road name: */
+      position: absolute;
+      width: 216.74px;
+      height: 21.41px;
+      left: 75px;
+      top: 260px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+label4 {
+      /* Street Address: */
+      position: absolute;
+      width: 218.09px;
+      height: 21.41px;
+      left: 148px;
+      top: 325px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+label5 {
+      /* City: */
+      position: absolute;
+      width: 45.52px;
+      height: 21.41px;
+      left: 141px;
+      top: 392px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+label6 {
+      /* State: */
+      position: absolute;
+      width: 60.34px;
+      height: 21.41px;
+      left: 126px;
+      top: 456px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+label7 {
+      /* Pincode: */
+      position: absolute;
+      width: 126.1px;
+      height: 21.41px;
+      left: 113px;
+      top: 518px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+label8
+{
+      position: absolute;
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+      /* or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+      width: 126.1px;
+      height: 21.41px;
+      left: 113px;
+      top: 574px;
+
+}
+
+.streettb {
+      position: absolute;
+      width: 364.18px;
+      height: 42.81px;
+      right: 70px;
+      bottom: 475px;
+
+      background: #FFFFFF;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn {
+      position: absolute;
+      width: 138px;
+      height: 48px;
+      left: 454px;
+      top: 520px;
+}
+
+.confirmBtn {
+      position: absolute;
+      width: 208px;
+      height: 51px;
+      left: -12px;
+      top: 124px;
+
+      background: #FBBD66;
+      border-radius: 100px;
+}
+
+.confirm {
+      position: absolute;
+      width: 54px;
+      height: 24px;
+      left: 43px;
+      top: 11px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+
+      display: flex;
+      align-items: center;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+}
+
+.roadNotb {
+      position: absolute;
+      width: 364.18px;
+      height: 42.81px;
+      right: 70px;
+      bottom: 407px;
+
+      background: #FFFFFF;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.citytb {
+      position: absolute;
+      width: 364.18px;
+      height: 42.81px;
+      right: 70px;
+      bottom: 340px;
+
+      background: #FFFFFF;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.statetb {
+      position: absolute;
+      width: 364.18px;
+      height: 42.81px;
+      right: 70px;
+      bottom: 271px;
+
+      background: #FFFFFF;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+.pincodetb {
+      position: absolute;
+      width: 364.18px;
+      height: 42.81px;
+      right: 70px;
+      bottom: 206px;
+
+      background: #FFFFFF;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.yourname
+{
+      position: absolute;
+      width: 364.18px;
+      height: 42.81px;
+      background: #FFFFFF;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      right: 70px;
+      bottom: 144px;
+
+
+}
+.youremail
+{
+      position: absolute;
+      width: 364.18px;
+      height: 42.81px;
+      background: #FFFFFF;
+      box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+      right: 70px;
+      bottom: 80px;
+
+
+}
+
+.booked {
+      position: absolute;
+      width: 68px;
+      height: 18px;
+      left: 252px;
+      top: 650px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      /* identical to box height, or 18px */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+.avail {
+      position: absolute;
+      width: 82px;
+      height: 18px;
+      left: 245px;
+      top: 710px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      /* identical to box height, or 18px */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+.bookedLabel {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 13px 20px;
+      gap: 10px;
+
+      position: absolute;
+      width: 54px;
+      height: 44px;
+      left: 174px;
+      top: 640px;
+
+      background: #D8E3FF;
+}
+
+.availableLabel {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 13px 20px;
+      gap: 10px;
+
+      position: absolute;
+      width: 54px;
+      height: 44px;
+      left: 174px;
+      top: 700px;
+
+      background: rgba(40, 220, 91, 0.32);
+}
+
+.holidayLabel {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 13px 20px;
+      gap: 10px;
+
+      position: absolute;
+      width: 54px;
+      height: 44px;
+      left: 174px;
+      top: 763px;
+
+      background: rgba(236, 12, 12, 0.29);
+}
+
+.holiday {
+      position: absolute;
+      width: 69px;
+      height: 18px;
+      left: 252px;
+      top: 775px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      /* identical to box height, or 18px */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #000000;
+
+}
+
+
+
+
+
+

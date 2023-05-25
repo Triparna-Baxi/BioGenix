@@ -1,0 +1,300 @@
+.imgStyle {
+	height: 811px;
+	width: 1519px;
+	margin: 0;
+	opacity: 50%;
+	background-position: center;
+}
+
+.blockStyle {
+	position: absolute;
+	width: 650px;
+	height: 600px;
+	left: 800px;
+	top: 130px;
+
+}
+
+.block2Style {
+	position: relative;
+	width: 650px;
+	height: 600px;
+	left: 0px;
+	top: 0px;
+
+	background: rgba(241, 241, 241, 0.5);
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 25px;
+}
+
+.sendMsgStyle {
+	position: absolute;
+	width: 651px;
+	height: 585px;
+	left: 0px;
+	top: 0px;
+}
+
+.title {
+	position: absolute;
+	width: 285px;
+	height: 44px;
+	left: 190px;
+	top: 20px;
+
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 200%;
+	/* or 96px */
+
+	letter-spacing: -0.019em;
+
+	color: #000000;
+}
+
+.nameStyle {
+	position: absolute;
+	width: 90px;
+	height: 30.8px;
+	left: 60px;
+	top: 130px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 200%;
+	letter-spacing: -0.019em;
+	color: #000000;
+
+}
+
+.nameBox {
+	position: absolute;
+	width: 372px;
+	height: 47px;
+	right: 100px;
+	top: 125px;
+	background: #FFFFFF;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+.emailStyle {
+	position: absolute;
+	width: 130px;
+	height: 70.8px;
+	left: 60px;
+	top: 190px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 200%;
+	/* or 64px */
+
+	letter-spacing: -0.019em;
+
+	color: #000000;
+
+}
+
+.emailBox {
+
+	position: absolute;
+	width: 372px;
+	height: 47px;
+	right: 100px;
+	top: 200px;
+
+	background: #FFFFFF;
+	box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+}
+
+
+.msgStyle {
+	position: absolute;
+	width: 270px;
+	height: 69.76px;
+	left: 60px;
+	top: 280px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 200%;
+	letter-spacing: -0.019em;
+	text-align: left;
+	color: #000000;
+}
+
+.msgBox {
+	position: absolute;
+	width: 500px;
+	height: 200px;
+	top: 360px;
+	left: 77px;
+	background: #FFFFFF;
+	box-shadow: inset 0px 4px 4px rgb(0 0 0 / 25%);
+	border-radius: 20px;
+	right: 90px;
+
+}
+
+.btnCase {
+	position: absolute;
+	width: 174px;
+	height: 52px;
+	left: 242px;
+	top: 615px;
+
+}
+
+.sendBtn {
+	position: absolute;
+	width: 173px;
+	height: 50px;
+	left: 0px;
+	top: 0px;
+
+	background: #FBBD66;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 15px;
+	border-color: transparent;
+
+}
+
+.sendtext {
+	position: absolute;
+	width: 54px;
+	height: 23px;
+	left: 57px;
+	top: 11px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	/* or 150% */
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 1.75px;
+	text-transform: uppercase;
+
+	color: #000000;
+
+}
+
+.mailIcon {
+	position: absolute;
+	width: 95px;
+	height: 96px;
+	left: 54px;
+	top: 318px;
+}
+
+.mailStyle {
+	position: absolute;
+	width: 319px;
+	height: 81px;
+	left: 191px;
+	top: 326px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	/* or 125% */
+
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+
+}
+
+.grp1 {
+	position: relative;
+	right: 773px;
+	top: 196px;
+}
+
+.phoneIcon {
+	position: absolute;
+	width: 95px;
+	height: 96px;
+	left: 54px;
+	top: 318px;
+}
+
+.phoneStyle {
+	position: absolute;
+	width: 319px;
+	height: 81px;
+	left: 191px;
+	top: 326px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	/* or 125% */
+
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+
+}
+
+.grp2 {
+	position: relative;
+	right: 773px;
+	top: -30px;
+}
+
+.addIcon {
+	position: absolute;
+	width: 95px;
+	height: 96px;
+	left: 54px;
+	top: 318px;
+}
+
+.addStyle {
+	position: absolute;
+	width: 319px;
+	height: 81px;
+	left: 191px;
+	top: 326px;
+
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 24px;
+	line-height: 30px;
+	/* or 125% */
+
+	display: flex;
+	align-items: center;
+	text-align: left;
+
+	color: #000000;
+
+}
+
+.grp3 {
+	position: relative;
+	right: 773px;
+	top: -267px;
+}

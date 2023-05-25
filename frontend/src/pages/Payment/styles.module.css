@@ -1,0 +1,128 @@
+.paymentBlock {
+      position: absolute;
+      width: 454px;
+      height: 600px;
+      left: 540px;
+      top: 100px;
+
+      background: #F2F2F2;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 25px;
+}
+
+heading {
+      position:absolute;
+      width: 492.48px;
+      height: 47.77px;
+      left: 153px;
+      top: calc(50% - 47.77px/2 - 239.11px);
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 48px;
+      /* identical to box height, or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 2.25px;
+      text-transform: uppercase;
+
+      color: #333333;
+
+}
+
+text {
+      position: absolute;
+      width: 794px;
+      height: 23.89px;
+      left: 96px;
+      top: 84px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: #333333;
+
+}
+
+.name {
+      position: absolute;
+      width: 338px;
+      height: 42px;
+      left: 57px;
+      top: 140px;
+}
+
+.cont{
+      background: #FFFFFF;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-color: transparent;
+}
+
+.email {
+      position: absolute;
+      width: 338px;
+      height: 42px;
+      left: 57px;
+      top: 235px;
+}
+
+.amount {
+      position: absolute;
+      width: 338px;
+      height: 42px;
+      left: 57px;
+      top: 330px;
+}
+
+.phone {
+      position: absolute;
+      width: 338px;
+      height: 42px;
+      left: 57px;
+      top: 425px;
+}
+
+.proceedBtn {
+      position: absolute;
+      width: 250px;
+      height: 49px;
+      left: 98px;
+      top: 540px;
+
+}
+
+.proceedText {
+      position: absolute;
+      width: 312px;
+      height: 24px;
+      left: 65px;
+      top: 10px;
+
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      /* identical to box height, or 120% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+      letter-spacing: 1.75px;
+      text-transform: uppercase;
+
+      color: #FFFFFF;
+
+}

@@ -1,0 +1,630 @@
+.img1 {
+    position: absolute;
+    width: 1480px;
+    height: 636px;
+    left: 22px;
+    top: 110px;
+    align-self: center;
+
+
+    border-radius: 25px;
+    opacity: 25%;
+}
+
+.msg {
+    position: absolute;
+    width: 777px;
+    height: 288px;
+    left: 89px;
+    top: 280px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 160%;
+    /* or 96px */
+
+    letter-spacing: -0.023em;
+
+    color: #1E1E1E;
+
+}
+
+.Button {
+    position: absolute;
+    width: 203px;
+    height: 45px;
+    left: 109px;
+    top: 50px;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+
+.loginBtn {
+    position: absolute;
+    width: 203px;
+    height: 45px;
+    left: 1099px;
+    top: 597px;
+
+    background: #FBBD66;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+.labelStyle {
+    position: absolute;
+    width: 75px;
+    height: 22.5px;
+    left: 65px;
+    top: 10px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* or 120% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.block2 {
+    position: absolute;
+    width: 1480px;
+    height: 350px;
+    left: 22px;
+    top: 832px;
+    align-self: center;
+
+    background: #F4F4F4;
+    border-radius: 25px;
+}
+
+.block3 {
+    position: absolute;
+    width: 454px;
+    height: 82px;
+    left: 78px;
+    top: 48px;
+    z-index: 2;
+}
+
+.block3_1 {
+    position: absolute;
+    width: 454px;
+    height: 82px;
+    left: 58px;
+    top: 742px;
+
+    background: #3073D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.label1 {
+    position: absolute;
+    width: 332px;
+    height: 24px;
+    left: 65px;
+    top: 31px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    /* identical to box height, or 80% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}
+
+.grp1 {
+    position: absolute;
+    width: 1366px;
+    height: 231px;
+    left: 51px;
+    top: 68px;
+
+}
+
+.covidTestGrp {
+    position: absolute;
+    width: 186px;
+    height: 210px;
+    left: -5px;
+    top: 19px;
+}
+
+.covidImg {
+    position: absolute;
+    width: 155px;
+    height: 152px;
+    left: 15px;
+    top: 8px;
+
+}
+
+.covidText {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    left: 34px;
+    top: 176px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    color: #000000;
+
+}
+
+.basicProfileGrp {
+    position: absolute;
+    width: 155px;
+    height: 200px;
+    left: 310px;
+    top: 21px;
+}
+
+.basicImg {
+    position: absolute;
+    width: 155px;
+    height: 152px;
+    left: 0px;
+    top: 8px;
+}
+
+.basicText {
+    position: absolute;
+    width: 145px;
+    height: 32px;
+    left: 6px;
+    top: 176px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    color: #000000;
+
+}
+
+.fullbdyTestGrp {
+    position: absolute;
+    width: 174px;
+    height: 200px;
+    left: 615px;
+    top: 21px;
+}
+
+.fullbdyTestImg {
+    position: absolute;
+    width: 155px;
+    height: 152px;
+    left: 10px;
+    top: 8px;
+
+}
+
+.fullbdyTestText {
+
+    position: absolute;
+    width: 174px;
+    height: 32px;
+    left: 0px;
+    top: 171px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    color: #000000;
+}
+
+.minibdyTestGrp {
+    position: absolute;
+    width: 185px;
+    height: 200px;
+    left: 920px;
+    top: 21px;
+
+}
+
+.minibdyTestImg {
+    position: absolute;
+    width: 155px;
+    height: 152px;
+    left: 11px;
+    top: 8px;
+}
+
+.minibdyTestText {
+    position: absolute;
+    width: 185px;
+    height: 32px;
+    left: 35px;
+    top: 172px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    color: #000000;
+}
+
+.cardioGrp {
+    position: absolute;
+    width: 167px;
+    height: 200px;
+    left: 1225px;
+    top: 21px;
+}
+
+.cardioImg {
+    position: absolute;
+    width: 155px;
+    height: 152px;
+    left: 6px;
+    top: 8px;
+}
+
+.cardioText {
+    position: absolute;
+    width: 167px;
+    height: 32px;
+    left: 18px;
+    top: 175px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.019em;
+    color: #000000;
+}
+
+.block4,
+.container {
+    position: absolute;
+    width: 1480px;
+    height: 511px;
+    left: 22px;
+    top: 1313px;
+    background: #F4F4F4;
+    border-radius: 25px;
+}
+
+.block5 {
+    position: absolute;
+    width: 454px;
+    height: 82px;
+    left: 905px;
+    top: 1272px;
+}
+
+.block5_1 {
+    position: absolute;
+    width: 454px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+
+    background: #3073D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.label2 {
+    position: absolute;
+    width: 383px;
+    height: 24px;
+    left: 36px;
+    top: 29px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    /* identical to box height, or 80% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.feedbackBlk1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 49px 19px;
+    gap: 32px;
+    position: absolute;
+    width: 1395px;
+    height: 407px;
+    left: 38px;
+    top: 15px;
+    overflow-x: scroll;
+
+}
+
+.fd1 {
+    width: 408px;
+    height: 288px;
+}
+
+.fd1_1 {
+    position: absolute;
+    width: 408px;
+    height: 288px;
+    left: 14px;
+    top: 74px;
+
+    background: rgba(217, 217, 217, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 116, 217, 0.2);
+    border-radius: 25px;
+}
+
+.fd2 {
+    width: 396px;
+    height: 288px;
+
+}
+
+.fd2_1 {
+    position: absolute;
+    width: 396px;
+    height: 288px;
+    left: 454px;
+    top: 74px;
+
+    background: rgba(217, 217, 217, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 116, 217, 0.2);
+    border-radius: 25px;
+}
+
+.fd3 {
+    width: 396px;
+    height: 288px;
+
+}
+
+.fd3_1 {
+    position: absolute;
+    width: 408px;
+    height: 288px;
+    left: 871px;
+    top: 74px;
+    background: rgba(217, 217, 217, 0.1);
+    box-shadow: 0px 4px 4px rgb(0 116 217 / 20%);
+    border-radius: 25px;
+}
+
+.fd4 {
+    width: 396.4px;
+    height: 288px;
+
+}
+
+.fd4_1 {
+    position: absolute;
+    width: 396.4px;
+    height: 288px;
+    left: 1310px;
+    top: 74px;
+
+    background: rgba(217, 217, 217, 0.1);
+    box-shadow: 0px 4px 4px rgba(0, 116, 217, 0.2);
+    border-radius: 25px;
+}
+
+.rev1 {
+    position: absolute;
+    width: 376.83px;
+    height: 175px;
+    left: 14px;
+    top: 16px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 170%;
+    /* or 41px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.019em;
+
+    color: #000000;
+}
+
+.fbBtn {
+    position: absolute;
+    width: 307px;
+    height: 48px;
+    left: 1024px;
+    top: 433px;
+}
+
+.fbBtnStyle {
+    position: absolute;
+    width: 307px;
+    height: 48px;
+    left: 0px;
+    top: 0px;
+
+    background: #FBBD66;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+.fdBkLbl {
+    position: absolute;
+    width: 199px;
+    height: 24px;
+    left: 62px;
+    top: 12px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #000000;
+
+}
+
+.container {
+    top: 1908px;
+    height: 345px;
+    width: 1480px;
+}
+
+.col1 {
+    position: absolute;
+    width: 395px;
+    height: 289px;
+    left: 1000px;
+    top: 36px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    /* or 48px */
+
+    letter-spacing: -0.019em;
+
+    color: rgba(0, 0, 0, 0.8);
+
+
+}
+
+.links {
+    position: absolute;
+    width: 238px;
+    height: 189px;
+    left: 64px;
+    top: 76px;
+
+}
+
+.L1 {
+    position: absolute;
+    width: 238px;
+    height: 57px;
+    left: 4px;
+    top: 5px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    /* or 48px */
+
+    letter-spacing: -0.019em;
+
+    color: #000000;
+}
+
+.L2 {
+    position: absolute;
+    width: 238px;
+    height: 57px;
+    left: 4px;
+    top: 65px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 200%;
+    /* or 48px */
+
+    letter-spacing: -0.019em;
+
+    color: #000000;
+}
+
+.block6 {
+    position: absolute;
+    width: 454px;
+    height: 82px;
+    left: 108px;
+    top: -42px;
+
+}
+
+.block6_1 {
+    position: absolute;
+    width: 454px;
+    height: 82px;
+    left: 0px;
+    top: 0px;
+
+    background: #3073D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 25px;
+}
+
+.label3 {
+    position: absolute;
+    width: 149px;
+    height: 24px;
+    left: 156px;
+    top: 31px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 24px;
+    /* identical to box height, or 80% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+}

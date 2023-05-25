@@ -1,0 +1,95 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .bkgImg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .feedbackForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 80%;
+    max-width: 500px;
+    margin-top: 8%;
+  }
+  
+  .formTitle {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .formLabel {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0 5px 0;
+    text-align: left;
+    width: 100%;
+  }
+  
+  .formInput,
+  .formTextArea {
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .rating {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  
+  .formButton {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .submitButton {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #2196f3;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .feedbackForm {
+      padding: 20px;
+      width: 90%;
+    }
+  }
+  

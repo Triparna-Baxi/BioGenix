@@ -1,0 +1,90 @@
+.containerLeft {
+    float: left;
+    width: 40%;
+    height: 100svh;
+}
+
+.containerLeft img {
+    width: 100%;
+    height: 100svh;
+}
+
+.containerRight {
+    float: right;
+    width: 60%;
+    height: 100svh;
+    padding-top: 150px;
+    padding-left: 230px;
+    box-shadow: 0px 0px 2px 4px grey;
+
+
+    font-family: 'Montserrat';
+    align-content: center;
+    font-weight: 400;
+}
+
+.block {
+    width: 490px;
+    height: 491px;
+    background-color: #f4f4f4;
+    border-radius: 25px;
+    padding-top: 35px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Montserrat';
+}
+
+.heading {
+    text-align: center;
+    text-shadow: #f4f4f4;
+}
+
+.btn1{
+    height: 40px;
+    width: 240px;
+    box-shadow: 0px 0px 2px 2px #868688;
+    background-color: #FBBD66;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    border-color: transparent;
+    
+    margin-top: 100px;
+    margin-left: 120px;
+}
+
+.btn2{
+    height: 40px;
+    width: 240px;
+    box-shadow: 0px 0px 2px 2px #868688;
+    background-color: #FBBD66;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    border-color: transparent;
+    
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+.ID, .Name, .Price, .Tests,.Password{
+    width: 300px;
+    margin-left: 85px;
+    margin-top: 20px;
+    height: 40px;
+
+    border-radius: 15px;
+    border-color: transparent;
+    font-family: 'Montserrat';
+    padding-left: 20px;
+}
+
+.btn{
+    height: 70px;
+    width: 123px;
+    box-shadow: 0px 0px 2px 2px #868688;
+    background-color: #FBBD66;
+    border-radius: 15px;
+    font-family: 'Montserrat';
+    border-color: transparent;
+    
+    margin-top: 40px;
+    margin-left: 20px;
+}
