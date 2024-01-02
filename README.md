@@ -4,22 +4,22 @@ BioGenix is a comprehensive Pathology Laboratory Management System developed usi
 
 Features:
 
-**Client**
+# Client
 Registration and Login: Clients can register and log in to their accounts securely.
 Test Selection and Appointment Booking: Clients can browse available tests, select a test, and book appointments based on the available time slots.
 Payment Integration: Integration with Razorpay enables secure online payments for booked appointments.
 Pathology Report Delivery: Once the test is conducted, clients will receive the pathology report via email.
 
-**Admin**
+# Admin
 Test Management: Admin can manage tests by creating, updating, or deleting available tests in the system.
 
-**Technologies Used**
+# Technologies Used
 Frontend: React.js
 Backend: Node.js, Express.js
 Database: MongoDB
 Payment Gateway Integration: Razorpay API
 
-**Getting Started**
+# Getting Started
 
 Prerequisites:
 Node.js and npm/yarn installed on your machine
